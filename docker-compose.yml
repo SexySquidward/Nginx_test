@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  reverse-proxy:
+    build: ./nginx
+    container_name: nginx_test
+    ports:
+      - 80:80
